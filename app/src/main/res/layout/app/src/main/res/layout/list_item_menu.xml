@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/dish_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="菜品名称"
+        android:textSize="16sp"
+        android:textColor="#2c3e50" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:textColor="#ffffff"
+        android:background="#e74c3c"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+</LinearLayout>
